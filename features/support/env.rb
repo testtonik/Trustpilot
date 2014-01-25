@@ -7,6 +7,7 @@ require 'page-object'
 require 'site_prism'
 require 'json_spec/cucumber'
 require 'rest_client'
+require 'httparty'
 #require 'sauce/cucumber'
 
 if ENV['IN_BROWSER']
