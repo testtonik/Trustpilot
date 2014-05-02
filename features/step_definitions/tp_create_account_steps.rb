@@ -22,7 +22,7 @@ When(/^I click Facebook button$/) do
 end
 Then(/^I can see Facebook login dialog$/) do
 	@popup = FaceBookLoginPopUp.new
-	@popup.log_in_first_time('testtonik@gmail.com', '_g0r0d0k_')
+	@popup.log_in_first_time('h@gmail.com', 'ttttt')
 end
 
 Then(/^I redirected to Home Page$/) do
